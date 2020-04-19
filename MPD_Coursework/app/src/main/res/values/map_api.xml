@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    //\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
+    //\ NAME        =                 Talwinder
+    //\ SURNAME     =                   Singh
+    //\ ID NUMBER   =                 S1604999
+    //\ DATE        =                 17/04/2020
+    //\ MODULE      =       Mobile Platform Development(MHI322959-19-B)
+    //\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
+
+
+    <string name="map_key" translatable="true">
+        AIzaSyCjZa-fJenN2Qjd301hPDl0Ksyr2yjLNSk
+    </string>
+</resources>

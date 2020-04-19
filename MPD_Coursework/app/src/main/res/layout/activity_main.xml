@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/gradient_background">
+
+    //\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
+    //\ NAME        =                 Talwinder
+    //\ SURNAME     =                   Singh
+    //\ ID NUMBER   =                 S1604999
+    //\ DATE        =                 17/04/2020
+    //\ MODULE      =       Mobile Platform Development(MHI322959-19-B)
+    //\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
+
+    <TextView
+            android:id="@+id/salutation"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="26sp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:text="Welcome to Traffic Data App\nTalwinder Singh ID:S1604999"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/salutation"
+        android:layout_alignStart="@+id/salutation"
+        android:layout_alignEnd="@+id/salutation"
+        android:layout_marginStart="78dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="-333dp"
+        android:src="@drawable/map_img" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/salutation"
+        android:layout_alignEnd="@+id/salutation"
+        android:layout_marginEnd="199dp"
+        android:layout_marginBottom="-365dp"
+        android:src="@drawable/traffic_img" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/salutation"
+        android:layout_alignEnd="@+id/salutation"
+        android:layout_marginEnd="59dp"
+        android:layout_marginBottom="-384dp"
+        android:src="@drawable/lights_img" />
+
+    <Button
+        android:id="@+id/currentIncidentsButton"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/salutation"
+        android:layout_alignEnd="@+id/salutation"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="-505dp"
+        android:textColor="@color/DarkSlateGray"
+        android:textSize="18sp"
+        android:background="@drawable/button_custom"
+        android:text="Current Incidents" />
+
+    <Button
+        android:id="@+id/roadWorkstButton"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/salutation"
+        android:layout_alignEnd="@+id/salutation"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="-444dp"
+        android:textColor="@color/DarkSlateGray"
+        android:textSize="18sp"
+        android:background="@drawable/button_custom"
+        android:text="RoadWorks" />
+
+    <Button
+        android:id="@+id/plannedWorksButton"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/salutation"
+        android:layout_alignEnd="@+id/salutation"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="-564dp"
+        android:textColor="@color/DarkSlateGray"
+        android:textSize="18sp"
+        android:background="@drawable/button_custom"
+        android:text="Planned RoadWorks" />
+
+    <Button
+        android:id="@+id/planJourneyButton"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/salutation"
+        android:layout_alignEnd="@+id/salutation"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="-623dp"
+        android:textColor="@color/DarkSlateGray"
+        android:textSize="18sp"
+        android:background="@drawable/button_custom"
+        android:text="Plan Journey" />
+
+
+
+
+    </RelativeLayout>
